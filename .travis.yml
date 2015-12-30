@@ -10,6 +10,7 @@ language: cpp
 sudo: required
 before_install:
   - sudo apt-get update -qq
+  - sudo apt-cache search qt5
   - sudo apt-get install -qq qt5-default qttools5-dev-tools
   - qmake -version
   
