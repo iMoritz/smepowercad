@@ -1,0 +1,22 @@
+os:
+  - linux
+  
+branches:
+  only:
+    - master
+  
+language: cpp
+
+# before_install:
+#  - sudo apt-get update -qq
+#  - sudo apt-get install -qq libqt5-dev qt5-default
+  
+script:
+  - qmake
+  - make
+  
+addons:
+  apt:
+    packages:
+      - libqt5-dev
+      - qt5-default
