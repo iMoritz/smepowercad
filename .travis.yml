@@ -20,11 +20,6 @@ before_install:
   - sudo apt-get install -qq qt5-default
   - qmake -version
   
-#script:
-#  - qmake
-#  - make
-  
-#addons:
-#  apt:
-#    packages:
-#      - qtbase5-dev
+script:
+  - qmake
+  - make
