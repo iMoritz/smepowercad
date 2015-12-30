@@ -17,7 +17,7 @@ sudo: required
 before_install:
   - sudo add-apt-repository -y ppa:ubuntu-sdk-team/ppa
   - sudo apt-get update -qq
-  - sudo apt-get install -qq qt5-default qtmultimedia5-dev libqt5svg5-dev 
+  - sudo apt-get install -qq qt5-default qtmultimedia5-dev libqt5svg5-dev qttools5-dev-tools
   
 script:
   - qmake
