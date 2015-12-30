@@ -18,5 +18,4 @@ script:
 addons:
   apt:
     packages:
-      - libqt5-dev
-      - qt5-default
+      - qtbase5-dev
